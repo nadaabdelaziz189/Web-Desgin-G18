@@ -1,0 +1,16 @@
+-- html ==> hyper text markup language 
+
+-- https://www.w3schools.com/html/default.asp
+-- https://www.javatpoint.com/html-tutorial
+-- https://www.tutorialspoint.com/html5/index.htm
+
+
+-- block Element ==> h1:h6 , p , list , table , div , semantic tags
+-- inline Element ==> span , a , img , text formatting
+
+-- a attributes ==> href , target ==> _blank , _self (default)
+-- img attributes ==> src (image link / image path) , width (px / %) , height (px)  , alt (image description) 
+-- table attributes ==> border
+-- th , td ==> rowspan , colspan
+-- ol attribute ==> type = A , a , I , i , 1(default)
+-- ul attributes ==> type = disc (default) , circle , square
