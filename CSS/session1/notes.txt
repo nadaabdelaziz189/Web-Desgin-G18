@@ -1,0 +1,37 @@
+-- css methods ==> internal sheet
+                   inline style
+                   external sheet
+
+
+-- css selector ==> tag name 
+                    class 
+                    id 
+                    * (universe style) 
+                    parent with child
+
+-- priority of css = * (universe style) ==> tag ==> class ==> id ==> inline style
+
+-- css properties ----
+    -- padding: 5%; ==>  (4 sides)
+    -- padding: 3% 5%; ==> (3% = top/bottom)  , (5% = right/left)
+    -- padding: 3% 6% 1%; ==> (3% = top) , (6% = left/right) , (1% = bottom)
+    -- padding: 3% 6% 1% 3%; ==> top / right / bottom / left
+    -- margin : same as padding ==> margin-left:auto / margin-right : auto
+    -- width ==> %
+    -- background-color = color
+    -- color 
+    -- border ==> color , style , width
+    -- border-top-color: red;
+    -- border-top-width: 4px;
+    -- border-top-style: solid;
+    -- border-top: 4px solid red;
+    -- font-size : px
+    -- font-family : monospace , cursive , sans-serif , sans .....
+
+    -- display : block , inline , inline-block , none
+
+
+
+
+
+

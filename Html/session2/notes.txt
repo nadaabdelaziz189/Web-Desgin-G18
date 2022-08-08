@@ -1,0 +1,18 @@
+-- inline Elements ==> label , input , button 
+-- block Elements ==> form
+
+
+
+-- form attributes ==> method (post/get) , autocomplete(off/on)
+-- input attributes ==> type , name , placeholder , value , disabled , readonly , required
+                        autocomplete(off/on) , autofocus minlength , maxlength
+-- type attribute ==> text , email , password , date , month , datetime-local , number , file 
+                       radio , checkbox , tel , url  , submit , reset
+-- input type radio/checkbox ==> checked    
+-- input type file / select==> mutiple 
+-- textArea attributes ==> placeholder , rows ,cols , name , required , disabled , value
+
+
+
+-- pattern html ==> https://www.w3schools.com/tags/att_input_pattern.asp
+

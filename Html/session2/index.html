@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off" >
+        <label>First Name</label>
+        <input type="text" name="firstName" autofocus> <br>
+        <label>Last Name</label>
+        <input type="text" name="lastName" required>
+        <br>
+        <input type="text" placeholder="enter family Name"> <br>
+        <label>Shipping area</label>
+        <!-- <input type="text" value="Alex" name="area" disabled> -->
+        <input type="text" value="Alex" name="area" readonly> <br>
+
+        <input type="email" placeholder="enter your Email" name="userEmail" autocomplete="off"> <br>
+        <!-- nouran_ahmed269@hotmail.com ==> username@domain.subdomain -->
+        
+        <label>Password</label>
+        <input type="password" name="userPassword"> <br>
+
+        <label>Quantity</label> 
+        <input type="number" name="quantity"> <br>
+
+        <label>Date of Birth</label>
+        <input type="date">
+        <input type="datetime-local">
+        <input type="month"> <br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> <label>Male</label>
+        <input type="radio" name="gender" value="female" checked> <span>Female</span> <br>
+
+        <label>track</label>
+        <input type="checkbox" name="design" value="webDesign" checked> <label>web design</label>
+        <input type="checkbox" name="develop" value="webDevelop"> <label>web develop</label>
+        <input type="checkbox" name="graphic" value="UX">  <label>graphic</label> <br>
+
+        <input type="file" name="uploadFile" multiple> <br>
+
+        <label>Address</label> 
+        <textarea placeholder="enter your address" name="address" rows="5" cols="100"></textarea> <br>
+
+        <!-- <label>Courses</label> -->
+        <select name="course">
+            <option disabled selected>Select your Course</option>
+            <option>HTml</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>Bootstrap</option>
+        </select>
+
+        <select name="courses" multiple>
+            <option disabled selected>Select your Course</option>
+            <option>HTml</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>Bootstrap</option>
+        </select> <br>
+
+
+        <label>Identity Card</label>
+        <input type="text" maxlength="14"> <br>
+
+
+        <!-- <label>Phone</label>
+        <input type="tel">
+        234-345-3456 -->
+
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" 
+        pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+
+
+
+        <input type="text" pattern="[0-9]{5}" maxlength="5" placeholder="enter numbers">  <br>
+
+        <input type="text" placeholder="enter your username" minlength="5" maxlength="10"> <br>
+
+        <input type="range" value="0" min="0" max="200" name="range"> <br>
+
+        <input type="color">
+
+        <br>
+       
+   
+        <input type="reset" value="Clear Form">
+        <input type="button" value="sign In">
+        <input type="submit" value="sign In">
+        <button type="button">Register</button>
+    </form>
+    
+
+</body>
+</html>
