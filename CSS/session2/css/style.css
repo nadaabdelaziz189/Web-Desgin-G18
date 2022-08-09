@@ -1,0 +1,12 @@
+.custom-input{
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+    color: red;
+    font-size: 25px;
+    box-sizing: border-box;
+    display: block;
+    border: 0px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
