@@ -1,4 +1,36 @@
-.custom-input{
+
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* Global style */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.w-30{
+    width: 30%;
+}
+.w-100{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/* custom Style */
+/* .custom-input{
     width: 40%;
     margin: 2%;
     padding: 1%;
@@ -9,4 +41,90 @@
     border: 0px;
     background-color: antiquewhite;
     border-radius: 10px;
+} */
+.bg-blue{
+    background-color: blue;
 }
+.bg-light{
+    background-color: lightgray;
+}
+nav{
+    padding: 1% 0;
+
+}
+nav h1 {
+    display: inline-block;
+}
+nav ul{
+    float: right;
+    width: 44%;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 12%;
+}
+
+.bg-img{
+    background-image: url(../images/istockphoto-517188688-612x612.jpg);
+    /* height: 580px; */
+    /* background-repeat-x: no-repeat; */
+    /* background-repeat-y: no-repeat; */
+    background-repeat: no-repeat;
+    background-color: aqua;
+    /* background-size: 100% 165%; */
+    background-size: 100% 100%;
+    /* background-position-x: right; */
+    /* background-position-y: bottom; */
+    /* background-position: center top; */
+    /* background-position-y: bottom; */
+    color: white;
+}
+
+.overlay{
+    background-color: rgb(0 0 0 / 57%);
+    height: 100%;
+}
+
+.head_banner{
+    padding-top: 5%;
+}
+
+.form-container{
+    padding: 5% 0%;
+}
+.form_style{
+    float: left;
+}
+.form_style input{
+   
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    padding: 3%;
+    border-radius: 6px;
+}
+.form_style button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 25px;
+    padding: 3%;
+    margin-top: 9%;
+}
+.custom_input{
+    width: 48%;
+    
+}
+.margin-right{
+    margin-right: 2%;
+}
+
+aside{
+    float: right;
+}
+aside a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+

@@ -1,0 +1,8 @@
+-- background-image : url(image path)
+-- background-repeat-x : repeat (default) , no-repeat
+-- background-repeat-y : repeat (default) , no-repeat
+-- background-repeat : repeat (default) , no-repeat
+-- background-size : 100% (width) 100% (height) , contain , cover
+-- background-position-x : left (default) , center , right
+-- background-position-y : top (default) , center , bottom
+-- background-position : background-position-x + background-position-y
