@@ -1,0 +1,10 @@
+-- position ==> fixed , sticky , relative , absolute , static(default)
+-- left , right , top , bottom , z-index
+
+-- line-height 
+
+-- box-shadow : h-offset v-offset blur spread color
+
+-- fontawesome ==> https://fontawesome.com/
+
+-- cdn ==> content delivery network
