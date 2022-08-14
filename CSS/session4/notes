@@ -1,0 +1,25 @@
+-- css tricks ==> https://css-tricks.com/
+
+-- filter: drop-shadow() ==> search
+
+-- direction ==> ltr = left to right
+                 rtl = right to left
+
+-- parent ==> display : flex ;
+              flex-wrap : nowrap (default) , wrap
+              flex-driection : row (default) , row-reverse , column , column-reverse
+              flex-flow : flex-wrap + flex-direction
+              justify-content: flex-start(default) , flex-end , center
+                               space-between , space-around , space-evenly
+              align-items : stretch (default) , flex-start , flex-end , center ==>  (1 row)
+              align-content : flex-start , flex-end , center ,
+                              space-between , space-around , space-evenly ==> (many rows)
+
+-- child ==> align-self : flex-start , flex-end , center
+             order : -1 up to
+
+
+ flex css tricks ==> https://css-tricks.com/snippets/css/a-guide-to-flexbox/                                        
+
+
+

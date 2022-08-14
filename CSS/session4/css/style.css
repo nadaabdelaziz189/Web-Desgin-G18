@@ -1,0 +1,164 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* direction: rtl; */
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: rgb(230, 228, 228)
+}
+
+/* custom style */
+section{
+    padding: 4% 0;
+}
+.card{
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0px 0px 6px grey;
+    display: inline-block;
+    margin-right: 2%;
+
+}
+.card button {
+    margin-top: 4%;
+    font-size: 20px;
+    padding: 2%;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+}
+.card button:focus{
+    border: 4px solid red;
+}
+.card:hover p{
+    color: red;
+}
+
+/* .card p:hover{
+    color: blue;
+} */
+.custom-p{
+    margin-top: 4%;
+    font-size: 23px;
+}
+.card p{
+    color: blue;
+}
+
+.card > p{
+    background-color: burlywood;
+}
+
+.card + h2{
+    color: blue;
+    font-size: 30px;
+}
+
+.card ~ h2{
+    background-color: aqua;
+    margin-top: 2%;
+}
+
+.card:hover +h2{
+    border: 4px solid ;
+}
+.card:hover ~h2{
+    border: 4px solid ;
+}
+
+.card.active{
+    border: 5px solid;
+    outline: 5px solid red;
+    border-radius: 10px;
+}
+#custom-card.active{
+
+}
+
+.custom-input[name]{
+    border: 3px solid blue;
+}
+.custom-input[name=useremail]{
+    background-color: burlywood;
+    padding: 2%;
+}
+#custom-input{   
+    display: block;
+    margin: 4% auto;
+    width: 40%;
+    padding: 2%;
+    border: 0;
+    border-bottom: 2px solid blue;
+}
+#custom-input:focus{
+    /* border: 0; */
+    outline: 0;
+}
+
+
+input[type= password] , input[type=number]  , h3{
+    box-shadow: 0px 0px 10px red;
+    margin-top: 2%;
+}
+.container aside .custom-aside p span{
+    background-color: black;
+    color: white;
+}
+
+
+.card-img{
+    width: 60%;
+    height: 500px;
+    margin-top: 3%;
+}
+.card-img:hover{
+    filter: grayscale(100%);
+    filter: brightness(0.5);
+    filter: blur(5px);
+    filter: contrast(0.5);
+    filter: opacity(1);
+    /* filter: drop-shadow(); ===> search  */
+}
+
+
+
+/* flex style */
+.d-flex{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    height: 721px;
+    align-content: space-between;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.bg-gold{
+    background-color: gold;
+}
+.flex-card{
+    width: 25%;
+    padding: 2%;
+    border: 2px solid lightgray;
+    /* margin-top: 2%; */
+}
+.bg-pink{
+    background-color: lightpink;
+}
+.bg-pink h1{
+    font-size: 26px;
+}
