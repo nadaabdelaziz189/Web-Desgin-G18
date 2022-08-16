@@ -1,0 +1,237 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
+
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+
+/************************** pesudo class style *************************************/
+input {
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 20px;
+}
+input:required{
+    border: 3px solid red;
+}
+:disabled{
+    border: 3px solid blue;
+}
+/* :focus{
+    outline-color: blue;
+    outline-width: 4px;
+    outline-style: dotted;
+} */
+a{
+    font-size: 30px;
+    margin-top: 2%;
+    display: inline-block;
+    margin-right: 3%;
+}
+
+a:link{
+    color: palevioletred;
+}
+a:visited{
+    color: olive;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+
+ul{
+    font-size: 25px;
+}
+
+#myUl li:first-child{
+    color: red;
+}
+
+#myUl li:last-child{
+    color: blue;
+}
+#myUl li:nth-child(3){
+    color: yellow;
+}
+
+.custom-div p:nth-child(2){
+    font-size: 25px;
+    color: red;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table , th , td{
+    border: 2px solid lightgray;
+}
+th , td{
+    padding: 2%;
+}
+
+th{
+    background-color: #438b8b;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    color: red;
+}
+
+tr:hover{
+    /* background-color: cadetblue; */
+}
+tr:nth-child(even):hover{
+    background-color: lightcoral;
+}
+tr:nth-child(odd):hover{
+    background-color: cadetblue;
+}
+
+
+/******************* pseudo Element style ****************************/
+
+h1::first-line{
+    color: red;
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+ol li::marker{
+    color: red;
+    font-size: 30px;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+
+::placeholder{
+    color: red;
+}
+
+h2{
+    font-size: 35px;
+}
+h2::before{
+    content: "Web Design";
+    background-color: #eae6e6;
+    margin-right: 2%;
+    padding: 2%;
+    width: 15%;
+    display: inline-block;
+    border-right: 4px solid red;
+}
+
+/* pseudo element with text content */
+h2::after{
+    content: "Web Design";
+    background-color: #eae6e6;
+    margin-right: 2%;
+    padding: 2%;
+    width: 15%;
+    display: inline-block;
+    border-right: 4px solid red;
+}
+
+
+.custom-pseudo-element{
+    background-color: #eae6e6;
+    width: 25%;
+    padding: 2%;
+    margin: 3% auto;
+    position: relative;
+}
+
+/* pseudo element with shape content */
+.custom-pseudo-element::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid lightgray;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+}
+
+.custom-pseudo-element::after{
+    content: "";
+    width: calc(100px - 60px);
+    height: 40px;
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+
+}
+
+/* pseudo element with icon content */
+
+.custom-before-icon{
+    font-size: 25px;
+    color: red;
+}
+
+.custom-before-icon::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: "\f007";
+    color: blue;
+    margin-right: 2%;
+}
+
+
+/* custom style */
+.opacity-card{
+    width: 30%;
+    background-color: lightgray;
+    margin-right: 3%;
+    height: 189px;
+    overflow: auto;
+}
+
+.custom-opacity{
+    /* opacity: 0; */
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.custom-font{
+    font-family: 'Cairo', sans-serif;
+}
+
+div.b {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+  }
+
+  

@@ -1,0 +1,19 @@
+-- pseudo class ==> :hover , :focus , :required , :disabled
+                    a ==> :link , :visited , :hover , :active
+                    :first-child , :last-child , :nth-child(num , even , odd)
+
+-- pesudo Class W3schools ==> https://www.w3schools.com/css/css_pseudo_classes.asp
+-- pseudo Element w3schools ==> https://www.w3schools.com/css/css_pseudo_elements.asp
+-- css tricks shapes ==> https://css-tricks.com/the-shapes-of-css/
+
+-- pseudo element ==> ::first-letter , ::first-line , ::selection , ::marker , 
+                      ::placeholder , ::before , ::after
+
+
+-- border-collapse : collapse , seperate(default)
+-- calc()
+-- opacity : 0 : 1
+-- visibility : hidden , visible(default)
+-- overflow : hidden , auto , scroll
+-- white-space : normal , nowrap
+-- text-overflow : ellipsis , clip(default) ==> white-space:nowrap , overflow:hidden
