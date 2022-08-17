@@ -1,0 +1,115 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* global style */
+
+:root{
+    --lightGray : lightgray ;
+    --marginTop : 3%;
+    --paragraphFont : 24px
+}
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+section{
+    background-color: var(--lightGray);
+    margin-top: var(--marginTop);
+    padding: 3% 0;
+}
+.bg-light{
+    background-color: var(--lightGray);
+}
+.custom-paragraph{
+    margin-top: var(--marginTop);
+    background-color: var(--lightGray);
+    font-size: var(--paragraphFont) ;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 25%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0px 0px 6px gray;
+}
+main{
+    height: 1000px;
+}
+
+
+.bg-img{
+    background-image: url(../images/slide3.jpg);
+    background-size: 100% 100%;
+}
+.bg-gradient{
+    height: 500px;
+    /* background-image: linear-gradient(to top , #e84d6a , #0e8e92);
+    background-image: linear-gradient(to left , #e84d6a , #0e8e92);
+    background-image: linear-gradient(to bottom left , #e84d6a , #0e8e92);
+    background-image: radial-gradient(circle ,  #e84d6a , #0e8e92); */
+    background-image: linear-gradient(to right ,  #e84d6a , #e84d6900);
+}
+
+.transition-card{
+    width: 200px ;
+    height: 200px;
+    margin: 3% auto;
+    background-color: var(--lightGray);
+    /* transition-duration: 5s; */
+    /* transition-property: height; */
+    /* transition-delay: 5s; */
+    /* transition-timing-function: linear; */
+    transition: 2s height , 5s width;
+}
+.transition-card:hover{
+    background-color: #e84d6a;
+    width: 500px;
+    height: 500px;
+}
+
+
+/* custom style  */
+.d-flex aside:first-child{
+    width: 60%;
+    margin-top: 2%;
+}
+.d-flex aside:last-child{
+    width: 35%;
+    border-left: 2px solid lightgray;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.card-flex{
+    width: 45%;
+   
+}
+.card-flex img{
+    width: 100%;
+}
+.card-flex-body{
+    padding: 2%;
+}
+.shadow{
+    box-shadow: 0px 0px 6px gray;
+}
+.custom-img{
+    width: 30%;
+}
+.custom-text{
+    width: 60%;
+}
+

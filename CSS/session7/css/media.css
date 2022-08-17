@@ -1,0 +1,45 @@
+
+/* screen = 340px */
+
+
+/* 0 : 575.98px */
+@media (max-width: 575.98px) { 
+    .d-flex aside:first-child{
+        background-color: lightcoral;
+        
+    }
+ }
+
+/* 0 : 360px */
+@media (max-width: 360px){
+   
+    .d-flex aside:first-child{
+        width: 100%;
+        background-color: lightblue;
+    }
+    .d-flex aside:last-child {
+        width: 59%;
+    }
+    .justify-content-sm-center{
+        justify-content: center;
+    }
+}
+
+
+/* 800px up to */
+@media (min-width:800px){
+    .d-flex aside:last-child{
+        background-color: aqua;
+    }
+}
+
+
+
+/******** Range  **********/
+@media (min-width:600px) and (max-width:768px){
+    .d-flex{
+        flex-direction: column;
+        background-color: chocolate;
+    }
+}
+

@@ -1,0 +1,59 @@
+-- wow documentation ==> https://wowjs.uk/
+
+  --  background-image: linear-gradient(direction , color , color color);
+  -- driection bottom to top
+
+  -- linear-gradient ==> https://www.w3schools.com/css/css3_gradients.asp
+  -- box-reflect ==> https://www.w3schools.com/css/css3_image_reflection.asp
+
+
+  -- transition-duration ==> time (s/ms)
+  -- transition-property ==> all (default) , css property
+  -- transition-delay ==> time (s/ms)
+  -- transition-timing-function ==> ease (default) : start slow , then fast , end slow
+                                    linear : same speed from start to end
+                                    ease-in : start slow
+                                    ease-out : end slow
+                                    ease-in-out : start slow , end slow
+                                    cubic-bezier() ==> search
+
+-- transition : duration  property  timing-function
+
+
+@media media type and (condition:breakpoint){
+
+}
+
+-- media type ==> screen
+                  speech
+                  print
+
+
+-- condition ==> max-width
+                 min-width
+                 range
+
+-- breakpoint ==> screen size    
+
+-- bootstrap media query ==> https://getbootstrap.com/docs/5.2/layout/breakpoints/
+
+
+
+
+-- units ==> px , % , em , rem , vh(search)
+-- 1em = 16px
+-- 1rem = 16px (responsive em)
+
+
+
+-- width ==> % : rem
+-- height ==> rem
+-- margin , padding ==> % : rem
+-- font-size : rem
+-- border : px
+-- left / right / top / bottom: % 
+-- box-shadow : px
+
+
+                 
+
