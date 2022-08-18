@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+}
+.transform-card{
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+   
+    font-size: 20px;
+    transition: 2s;
+}
+.bg-light{
+    background-color: rgb(220, 217, 217);
+}
+.bg-blue{
+    background-color: lightblue;
+}
+.bg-pink{
+    background-color: lightcoral;
+}
+
+.transform-card:hover{
+    transform: translateX(50%);
+    transform: translateX(-50%);
+    transform: translateY(50%);
+    transform: translateY(-50%);
+    transform: translate(50% , 200px);
+    transform: rotate(40deg);
+    transform: rotate(-360deg);
+    transform: scaleX(2);
+    transform: scaleX(1);
+    transform: scaleX(0.5);
+    transform: scaleX(0);
+    transform: scaleY(2);
+    transform: scaleY(0.5);
+    transform: scale(1.4 , 0.5);
+    transform: skewX(30deg);
+    transform: skewX(-30deg);
+    transform: skewY(-30deg);
+    transform: skewY(30deg);
+    transform: skew(30deg , 40deg);
+    /* matrix(scaleX , skewY , skewX , scaleY , translateX , translateY) */
+    transform: matrix(1.5  , 0 , 0.9 , 0.5 , 200 , 100);
+
+    transform: rotate(50deg);
+    transform: scale(1.3) rotate(20deg);
+
+}
+
+.animation-card{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-top: 2%;
+    /* animation-name:changeDivBgColor ;
+    animation-duration: 5s;
+    animation-iteration-count: 2 ;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear ;
+    animation-delay: 3s; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: changeDivBgColor 5s linear 3s infinite;
+}
+
+@keyframes changeDivBgColor {
+    /* from {
+        background: black;
+    }
+    to {
+        background:blue;
+    } */
+
+    0%{
+        background: black;
+       
+    }
+    25%{
+        background-color: aqua;
+        transform: translateX(400px);
+        border: 3px solid blue;
+    }
+    50%{
+        background-color: brown;
+        transform: translate(400px , 400px) rotate(360deg);
+    }
+    75%{
+        background-color: burlywood;
+        transform: translate(0px , 400px);
+    }
+    100%{
+        background-color: chartreuse;
+    }
+}
+
+
+.loading-icon{
+    font-size: 50px;
+    color: red;
+    margin-top: 3%;
+    transition: 3s;
+    animation:loading 0.9s linear  infinite;
+
+}
+/* .loading-icon:hover{
+    transform: rotate(360deg);
+} */
+
+@keyframes loading{
+    100%{
+        transform: rotate(360deg);
+    }
+}
